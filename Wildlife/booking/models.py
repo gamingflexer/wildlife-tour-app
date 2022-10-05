@@ -10,3 +10,9 @@ class bookings(models.Model):
 class Sanctuary(models.Model):
     date = models.DateField()
     slot = models.IntegerField(blank=True, null=True, default=0)
+    
+class Feedback(models.Model):
+    email = models.EmailField()
+    issue_type = models.CharField(max_length=100,default="Feedback")
+    client_data = models.CharField(max_length=100)
+    issue = models.CharField(max_length=100)

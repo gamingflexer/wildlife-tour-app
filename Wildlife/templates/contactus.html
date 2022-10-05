@@ -38,14 +38,14 @@
 
 <div class="container my-4">
     <h2>Contact Us</h2>
-    <form>
+    <form action="/api/feedback-form" method="post">
         <div class="form-group my-2">
             <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="exampleFormControlInput1" >
         </div>
         <div class="form-group my-2">
             <label for="exampleFormControlSelect1" "my-2">Select your Query</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <select class="form-control" id="exampleFormControlSelect1" name="exampleFormControlSelect1" >
                 <option>Booking</option>
                 <option>Payment Isshue</option>
                 <option>Service</option>
@@ -56,11 +56,11 @@
 
         <div class="form-group my-2">
             <label for="exampleFormControlTextarea1">Tell us about yourself</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="exampleFormControlTextarea1"></textarea>
         </div>
         <div class="form-group my-2">
             <label for="exampleFormControlTextarea2">Elaborate Your Concern</label>
-            <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea2" rows="3" name="exampleFormControlTextarea2"></textarea>
         </div>
         <button class="btn btn-primary my-4">Submit</button>
     </form>
