@@ -43,11 +43,11 @@
 <div class="booking">
     <div class="booking1">
         <div class="booking2">
-            <form>
+            <form action="/api/booking-confirmation" method="post">
                 <label for="Date">Date :-</label>
-                <input type="date" class="date"><br>
+                <input type="date" class="date" name="date" id="date"><br>
                 <label for="Sanctuary name">Sanctuary Name :-</label>
-                <select>
+                <select name="sanctuary" id="sanctuary">
                     <option value="karnala Wildlife Sanctuary">karnala Wildlife Sanctuary</option>
                     <option value="Melghat Wildlife Sanctuary">Melghat Wildlife Sanctuary</option>
                     <option value="Bor Wildlife Sanctuary">Bor Wildlife Sanctuary</option>
@@ -61,13 +61,12 @@
                     <option value="Sagareshawar Wildlife Sanctuary">Sagareshawar Wildlife Sanctuary</option>
                     <option value="Sanjay Gandhi National Park">Sanjay Gandhi National Park</option>
                 </select> <br>
-                <label for="Slot">Select Slot :-</label>
-                <select class="slot">
+                <label for="slot">Select Slot :-</label>
+                <select class="slot" name="slot" id="slot">
                     <option value="Morning">Morning</option>
                     <option value="Afternoon">Afternoon</option>
                 </select><br>
                 <div class="button">
-                    <button class="checkbutton">Check</button>
                     <button class="bookbutton">Book Now</button>
                 </div>
             </form>
@@ -115,4 +114,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+<script src="sweetalert2.all.min.js"></script>
+<script src="sweetalert2.min.js"></script>
+<link rel="stylesheet" href="sweetalert2.min.css">
     {% endblock body %}

@@ -3,10 +3,9 @@ from django.contrib.auth import logout,authenticate,login
 from django.shortcuts import render , redirect
 from django.http import HttpResponse
 from django.core.mail import send_mail
-import random
-
+from django.views.decorators.csrf import csrf_exempt
 from home.models import Destination
-
+import time
 
 
 
