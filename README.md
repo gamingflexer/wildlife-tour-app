@@ -4,6 +4,10 @@ This is a simple app that allows users to book wildlife tours and view wildlife 
 
 # Setup
 
+```
+cd Wildlife
+```
+
 ## Migrations
 ```
 python manage.py makemigrations
