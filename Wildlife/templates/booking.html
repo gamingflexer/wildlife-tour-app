@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% block title %}Jungle Safari {% endblock title %}
+{% block body %}
+{% load static %}
+<link rel="stylesheet" type='text/css' href="{% static 'booking.css'%}"/>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand mx-2" href="#">Jungle Safari</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/tourism">Tourism</a>
+               
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link active" href="/booking">Booking</a>
+          </li>
+  
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/contactus">Contact Us</a>
+            </li>
+            
+  
+  
+        </ul>
+        
+        
+    </div>
+  </nav>
+  
+
+<div class="booking">
+    <div class="booking1">
+        <div class="booking2">
+            <form>
+                <label for="Date">Date :-</label>
+                <input type="date" class="date"><br>
+                <label for="Sanctuary name">Sanctuary Name :-</label>
+                <select>
+                    <option value="karnala Wildlife Sanctuary">karnala Wildlife Sanctuary</option>
+                    <option value="Melghat Wildlife Sanctuary">Melghat Wildlife Sanctuary</option>
+                    <option value="Bor Wildlife Sanctuary">Bor Wildlife Sanctuary</option>
+                    <option value="Bhimashankar Wildlife Sanctuary">Bhimashankar Wildlife Sanctuary</option>
+                    <option value="Tadoba Wildlife Sanctuary">Tadoba Wildlife Sanctuary</option>
+                    <option value="Karhandla Wildlife Sanctuary">karhandlaWildlife Sanctuary</option>
+                    <option value="Radhanagari Wildlife Sanctuary">Radhanagari Wildlife Sanctuary</option>
+                    <option value="Navegaon Wildlife Sanctuary">Navegaon Wildlife Sanctuary</option>
+                    <option value="Pench Wildlife Sanctuary">Pench Wildlife Sanctuary</option>
+                    <option value="Nagzira Wildlife Sanctuary">Nagzira Wildlife Sanctuary</option>
+                    <option value="Sagareshawar Wildlife Sanctuary">Sagareshawar Wildlife Sanctuary</option>
+                    <option value="Sanjay Gandhi National Park">Sanjay Gandhi National Park</option>
+                </select> <br>
+                <label for="Slot">Select Slot :-</label>
+                <select class="slot">
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                </select><br>
+                <div class="button">
+                    <button class="checkbutton">Check</button>
+                    <button class="bookbutton">Book Now</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="instructions">
+            <div>
+                <h5><b><u>Traveler's Details:-</u></b></h5>
+                <ul>
+                    <li>First Tourint Name will be Considered as Group Leader(who should be an Adult). All Adults
+                        must carry Photo Identity Card. </li>
+                    <li>Registration of Identity Proof is Compulsory for Adult.</li>
+                    <li>Max Capacity is 6 excluding driver and guide for Gypsy.</li>
+                    <li>Taking Guide is Mendatory. Guide chargesos payable at entry gate.</li>
+                    <li>Park Authority does not provide Gypsy to the tourist for safari. Only the entry fees charged
+                        from the tourists.</li>
+                    <li>Registred Gspsy should be hired at gate for safari fromauthorised gypsy providers.</li>
+                </ul>
+            </div>
+            <div>
+                <h5><b><u>Declaration:-</u></b></h5>
+                <ol>
+                    <li>I/WE will not enter any protected forest area with fire arms/explosives/Alcohols.</li>
+                    <li>I/WE will ensure that the vehicle driver does not enter prohibited roads,does not blow horn
+                        or play the radio music and violate other park rules.</li>
+                    <li>I/We shall abide by the park rules and the conditions in the entry permitted apart from the
+                        rules/regulations made under wildlife Protection Act-1972.</li>
+                    <li>I/WE also hereby indemnify the Maharashtra Forest Department and it's officials against any
+                        claims for compensation by ouerself/ myself or other,in the event of any injury pe death to
+                        ouerself/myself during the park execursion.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+    {% endblock body %}

@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block title %}Contact Us {% endblock title %}
+{% block body %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand mx-2" href="#">Jungle Safari</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/tourism">Tourism</a>
+               
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="/booking">Booking</a>
+          </li>
+  
+            
+            <li class="nav-item active">
+                <a class="nav-link active" href="/contactus">Contact Us</a>
+            </li>
+            
+  
+  
+        </ul>
+        
+        
+    </div>
+</nav>
+  
+
+<div class="container my-4">
+    <h2>Contact Us</h2>
+    <form>
+        <div class="form-group my-2">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group my-2">
+            <label for="exampleFormControlSelect1" "my-2">Select your Query</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Booking</option>
+                <option>Payment Isshue</option>
+                <option>Service</option>
+                <option>Others</option>
+            </select>
+        </div>
+       
+
+        <div class="form-group my-2">
+            <label for="exampleFormControlTextarea1">Tell us about yourself</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group my-2">
+            <label for="exampleFormControlTextarea2">Elaborate Your Concern</label>
+            <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+        </div>
+        <button class="btn btn-primary my-4">Submit</button>
+    </form>
+
+</div>
+
+
+{% endblock body %}

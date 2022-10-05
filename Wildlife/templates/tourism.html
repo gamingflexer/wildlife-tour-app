@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block title %}Tourism{% endblock title %}
+{% block body %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand mx-2" href="#">Jungle Safari</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="/tourism">Tourism</a>
+             
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/booking">Booking</a>
+        </li>
+
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact Us</a>
+          </li>
+      </ul> 
+      
+  </div>
+</nav>
+
+
+<div class="container my-4">
+<div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Raigad</strong>
+          <h4 class="mb-0">karnala Bird sanctuary</h4>
+          
+          <p class="card-text mb-auto">Karnala near Panvel is a sanctuary dedicated to birds.
+            It is the third sanctuary near the city of Mumbai after Sanjay Gandhi National Park and Tungareshwar hills.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/500x700/?wildlife,birds" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Amaravati</strong>
+          <h3 class="mb-0">Melghat Wildlife Sanctuary</h3>
+          
+          <p class="mb-auto">Melghat was among the first nine tiger reserves of India to be notified in 1973 under Project Tiger. </p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/500x700/?tiger" alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-danger">Wardha</strong>
+          <h3 class="mb-0">Bor Wildlife Sanctuary</h3>
+    
+          <p class="card-text mb-auto">It is a home to a variety of wild animals. The reserve covers an area of 138.12 km² which includes the drainage basin of the Bor Dam.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/500x700/?wildlife,parrot" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-warning">Seoni</strong>
+          <h3 class="mb-0">Pench Wildlife Sanctuary</h3>
+          
+          <p class="mb-auto">Pench Tiger Reserve is one of the premier tiger reserves of India and the first one to straddle across two states - Madhya Pradesh and Maharashtra.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/500x700/?wildlife,peacock" alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock body%}

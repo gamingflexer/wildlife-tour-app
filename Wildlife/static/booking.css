@@ -1,0 +1,59 @@
+
+.booking1{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 600px;
+}
+.booking2{
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+.date{
+    margin-left: 50px;
+}
+
+
+.slot{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+}
+.checkbutton{
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    color: green;
+    text-align: center;
+    padding: 14px 40px;
+    
+}
+.checkbutton:hover{
+    background-color: #4CAF50; /* Green */
+  color: white;
+
+}
+.bookbutton{
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 14px 40px;
+}
+.bookbutton:hover{
+    background-color: #4CAF50; /* Green */
+  color: white;
+
+}
+.instructions{
+    background-color:palegreen;
+    margin-left: 400px;
+    
+}
