@@ -18,7 +18,7 @@ python manage.py runserver
 # Screenshots
 
 ## Home Page
-<img width="200" alt="" src="https://github.com/gamingflexer/wildlife-tour-app/raw/main/images/home.png">
+<img width="500" alt="" src="https://github.com/gamingflexer/wildlife-tour-app/raw/main/images/home.png">
 
 ## Wildlife Tour Page
-<img width="200" alt="" src="https://github.com/gamingflexer/wildlife-tour-app/raw/main/images/tourism.png">
+<img width="500" alt="" src="https://github.com/gamingflexer/wildlife-tour-app/raw/main/images/tourism.png">
