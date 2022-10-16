@@ -1,6 +1,12 @@
-# wildlife-tour-app
+# Wildlife Tour Website
 
 This is a simple app that allows users to book wildlife tours and view wildlife tours.
+
+### Features
+
+- HomePage and basic Pages
+- Authentication
+- Booking Facility
 
 # Setup
 
